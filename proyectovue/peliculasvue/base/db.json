@@ -1,0 +1,105 @@
+{
+  "categoria": [
+    {
+      "id": 2,
+      "nombre": "animacion",
+      "descripcion": "pelicula animada digitalmente"
+    },
+    {
+      "id": 3,
+      "nombre": "terror",
+      "descripcion": "Peliculas no aptas para menores de 16"
+    },
+    {
+      "id": 4,
+      "nombre": "suspenso",
+      "descripcion": "Peliculas con ambientes de intriga"
+    },
+    {
+      "id": 5,
+      "nombre": "historia",
+      "descripcion": "Representacion historica de algun echo del pasado"
+    },
+    {
+      "nombre": "Comedia",
+      "descripcion": "Para reir",
+      "id": 8
+    }
+  ],
+  "pelicula": [
+    {
+      "id": 1,
+      "imagen": "https://es.web.img2.acsta.net/c_310_420/pictures/22/05/25/12/28/4179295.jpg",
+      "nombre": "Minions El origen de Gru",
+      "descripcion": "Los minions estan de vuelta y esta vez explicamos como conocieron a Gru",
+      "precio": "25",
+      "categorias": [
+        "infantil",
+        "animacion"
+      ],
+      "horarios": [
+        "16:00",
+        "19:15"
+      ]
+    },
+    {
+      "id": 2,
+      "imagen": "https://cdn.mallmarina.cl/mallconcepcion/uploads/2022/09/La-Huerfana-el-origen-460-x-660.jpg",
+      "nombre": "La huerfana el origen",
+      "descripcion": "La aterradora saga de Esther continúa en esta precuela emocionante de la exitosa y sobrecogedora película de terror La huérfana. ",
+      "precio": "25",
+      "categorias": [
+        "terror",
+        "suspenso"
+      ],
+      "horarios": [
+        "21:00",
+        "23:20"
+      ]
+    },
+    {
+      "id": 3,
+      "imagen": "https://cdn.mallmarina.cl/mallconcepcion/uploads/2022/10/Argentina-1985-460x660-1.jpg",
+      "nombre": "Argentina 1985",
+      "descripcion": "Argentina, 1985 está inspirada en la historia real de Julio Strassera, Luis Moreno Ocampo y su joven equipo jurídico",
+      "precio": "20",
+      "categorias": [
+        "historia"
+      ],
+      "horarios": [
+        "09:00",
+        "14:00"
+      ]
+    }
+  ],
+  "horario": [
+    {
+      "id": 1,
+      "hora": "09:00"
+    },
+    {
+      "id": 2,
+      "hora": "14:00"
+    },
+    {
+      "id": 3,
+      "hora": "16:00"
+    },
+    {
+      "id": 4,
+      "hora": "19:15"
+    },
+    {
+      "id": 5,
+      "hora": "21:00"
+    },
+    {
+      "id": 6,
+      "hora": "23:20"
+    },
+    {
+      "hora": "08:00",
+      "id": 7
+    }
+  ]
+}

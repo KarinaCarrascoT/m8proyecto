@@ -1,0 +1,15 @@
+<h1>Facturas</h1>
+
+<form action="{% url 'facturas' %}" method="post">
+    {% csrf_token %}
+    <table>
+        {{form.as_table}}
+    </table>
+    <input type="submit" value="Submit"/>
+</form>
+
+<ul>
+    {% for factura in facturas  %}
+    <li>{{factura.cuf}}</li>
+    {% endfor %}
+</ul>

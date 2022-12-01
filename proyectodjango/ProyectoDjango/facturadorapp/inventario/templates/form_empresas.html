@@ -1,0 +1,15 @@
+<h1>Empresa</h1>
+
+<form action="{% url 'empresas' %}" method="post">
+    {% csrf_token %}
+    <table>
+        {{form.as_table}}
+    </table>
+    <input type="submit" value="Submit"/>
+</form>
+
+<ul>
+    {% for empresa in empresas  %}
+    <li>{{empresa.razonSocial}}</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,6 @@
+version: "3"
+services:
+  webappvuejs:
+    build: .
+    ports:
+      - "80:80"

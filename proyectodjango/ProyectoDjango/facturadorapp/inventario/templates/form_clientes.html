@@ -1,0 +1,15 @@
+<h1>Cliente</h1>
+
+<form action="{% url 'clientes' %}" method="post">
+    {% csrf_token %}
+    <table>
+        {{form.as_table}}
+    </table>
+    <input type="submit" value="Submit"/>
+</form>
+
+<ul>
+    {% for cliente in clientes  %}
+    <li>{{cliente.documento}}</li>
+    {% endfor %}
+</ul>

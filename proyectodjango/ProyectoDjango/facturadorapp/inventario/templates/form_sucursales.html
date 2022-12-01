@@ -1,0 +1,15 @@
+<h1>Sucursales</h1>
+
+<form action="{% url 'sucursales' %}" method="post">
+    {% csrf_token %}
+    <table>
+        {{form.as_table}}
+    </table>
+    <input type="submit" value="Submit"/>
+</form>
+
+<ul>
+    {% for sucursales in sucursales  %}
+    <li>{{empresa.numero}}</li>
+    {% endfor %}
+</ul>
